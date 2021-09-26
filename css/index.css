@@ -1,0 +1,83 @@
+@font-face { font-family: Avenir;
+   src: url('./AvenirLTStd-Book.otf'); }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body { 
+  overflow: hidden; 
+  font-family: Avenir;
+  background: black;
+}
+
+.scene,
+canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.dummy{
+  min-height: 75vh;
+}
+.nav-text{ 
+  color: white;
+  position: relative; 
+  bottom: -100%; 
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  box-shadow: 2px 3px 13px rgba(255, 255, 255, 0.8), ;
+} 
+
+.nav-text .back, .nav-text .front{ 
+  border-radius: 10px;
+  width: 35%; 
+  opacity: 0.75;
+  height: 150px; 
+}
+
+.nav-text .back  a, .nav-text .front a{
+  background:   rgba(255, 255, 255, 0.1); 
+  width: 100%;
+  height: 100%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(149, 57, 235);
+}
+
+.nav-text .back:hover, .nav-text .front:hover{
+  border: 1px solid white;
+  opacity: 1; 
+  transition: all linear 0.3s;
+}
+
+.nav-text .year{ 
+  border: 9px solid rgb(69, 236, 69);
+  display: inline-block;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  font-size: 32px;
+  padding: 35px 24px ; 
+  margin: 25px 0px 0px;
+  border-radius: 50%;
+}
+
+
+.dummy p{
+  background: rgba(255, 255, 255, 0.122);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
