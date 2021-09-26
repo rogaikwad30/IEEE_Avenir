@@ -13,7 +13,7 @@ i{
 }
 canvas{
     position:absolute;
-    display: block;
+    /* display: block; */
     left:0;
     top:0;
     width: 100%;
@@ -33,14 +33,29 @@ canvas{
     flex-direction: column;
     /* background-color: rosybrown; */
 }
+
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 702px) {
+	canvas {
+	  height: 150%;
+	}
+	.name{
+		font-size: 4rem !important;
+	}
+  }
+
+
 .name{
     display: flex;
     justify-content: center;
     align-items: center;
     /* background-color: royalblue; */
     color: rgb(243, 253, 184);
-    font-size: 7em;
+    font-size: 6rem;
+	/* font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300))*7); */
     font-weight: 600;
+	text-align: center;
     margin: 1.3em;
     flex-wrap: wrap;
 }
