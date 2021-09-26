@@ -21,7 +21,7 @@ function init() {
   container.appendChild(renderer.domElement);
   
   let loader = new THREE.GLTFLoader();
-  loader.load("../js/3dIcons/two/scene.gltf", function(gltf) {
+  loader.load("../js/3dIcons/six/scene.gltf", function(gltf) {
     scene.add(gltf.scene);
     house = gltf.scene.children[0];
     house.position.y = -18

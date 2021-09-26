@@ -34,16 +34,20 @@ function init() {
   controls.addEventListener('change', renderer);
   container.appendChild(renderer.domElement);
  
+  let directionalLight = new THREE.DirectionalLight(0x8E3B46,100);
+  directionalLight.position.set(00, 00, 1);
+  directionalLight.castShadow = true;
+  scene.add(directionalLight); 
+
   let loader = new THREE.GLTFLoader();
-  loader.load("../js/3dIcons/three/scene.gltf", function(gltf) {
+  loader.load("../js/3dIcons/seven/scene.gltf", function(gltf) {
     scene.add(gltf.scene);
     house = gltf.scene.children[0];
-    house.scale.set(0.009,0.003,0.0156)
-    // house.position.set(0,-100,0)
+    house.scale.set(1,0.95,1)
+    house.position.set(0,0,0)
     animate();
   });
 }
-
 function animate() {
   requestAnimationFrame(animate);
   house.rotation.z += 0.001;
