@@ -7,6 +7,11 @@ This repo has all the tasks done by the team "Optimistic Nerds" in the competion
 ## Deployed Branch
 - prefinal
 
+## Features 
+- Each timeline had 3d icon. 
+- Use Left Mouse to rotate the came 
+- Mouse scroll button to zoom in and zoom out
+
 ## Steps to setup project locally
 - git clone https://github.com/rogaikwad30/IEEE_Avenir.git
 - npm install
