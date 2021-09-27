@@ -11,6 +11,7 @@ This repo has all the tasks done by the team "Optimistic Nerds" in the competion
 - Each timeline had 3d icon. 
 - Use Left Mouse to rotate the camera
 - Mouse scroll button to zoom in and zoom out
+- Hold left click on dashboard for canvas effect
 
 ## Steps to setup project locally
 - git clone https://github.com/rogaikwad30/IEEE_Avenir.git
