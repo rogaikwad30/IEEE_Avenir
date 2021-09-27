@@ -9,7 +9,7 @@ This repo has all the tasks done by the team "Optimistic Nerds" in the competion
 
 ## Features 
 - Each timeline had 3d icon. 
-- Use Left Mouse to rotate the came 
+- Use Left Mouse to rotate the camera
 - Mouse scroll button to zoom in and zoom out
 
 ## Steps to setup project locally
