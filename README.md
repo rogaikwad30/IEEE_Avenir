@@ -12,6 +12,7 @@ This repo has all the tasks done by the team "Optimistic Nerds" in the competion
 - Use Left Mouse to rotate the camera
 - Mouse scroll button to zoom in and zoom out
 - Hold left click on dashboard for canvas effect
+- 3d icons files are bit large to render . Please wait for few seconds to load the icon.
 
 ## Steps to setup project locally
 - git clone https://github.com/rogaikwad30/IEEE_Avenir.git
